@@ -1,0 +1,12 @@
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\bin\Debug\MarsRover.exe
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\bin\Debug\MarsRover.pdb
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\MarsRover.exe
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\MarsRover.pdb
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\bin\Debug\en\MarsRover.resources.dll
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\en\MarsRover.resources.dll
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\MarsRover.MarsRover.en.resources
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\obj\x86\Debug\MarsRover.MarsRover.resources
+C:\Users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRover\bin\Debug\MarsRover.exe.config

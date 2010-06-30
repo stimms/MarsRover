@@ -1,0 +1,8 @@
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\bin\Debug\MarsRoverTests.dll
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\bin\Debug\MarsRoverTests.pdb
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\obj\Debug\MarsRoverTests.dll
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\obj\Debug\MarsRoverTests.pdb
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\bin\Debug\MarsRover.exe
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\bin\Debug\MarsRover.pdb
+c:\users\stimms\documents\visual studio 2010\Projects\MarsRover\MarsRoverTests\bin\Debug\en\MarsRover.resources.dll
