@@ -65,8 +65,8 @@
     <Compile Include="IMove.cs" />
     <Compile Include="IMoveParser.cs" />
     <Compile Include="IMoveSupplier.cs" />
-    <Compile Include="InvalidLocationException.cs" />
-    <Compile Include="InvalidMoveException.cs" />
+    <Compile Include="Exceptions\InvalidLocationException.cs" />
+    <Compile Include="Exceptions\InvalidMoveException.cs" />
     <Compile Include="LeftTurn.cs" />
     <Compile Include="MarsRover.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -21,6 +21,9 @@ namespace MarsRover
                     case 'R':
                         returnValue.Add(new RightTurn());
                         break;
+                    case 'M':
+                        returnValue.Add(new Move());
+                        break;
                     default:
                         throw new InvalidMoveException();
                 }

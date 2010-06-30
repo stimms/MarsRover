@@ -67,5 +67,14 @@ namespace MarsRoverTests
             Assert.IsInstanceOfType(moves.First(), typeof(LeftTurn));
             Assert.IsInstanceOfType(moves.Skip(1).First(), typeof(RightTurn));
         }
+
+        [TestMethod]
+        public void ReturnsForOneMove()
+        {
+            StringMoveParser parser = new StringMoveParser();
+            List<IMove> moves = parser.GetMoves("M");
+            Assert.IsInstanceOfType(moves.First(), typeof(Move));
+            Assert.AreEqual(1, moves.Count);
+        }
     }
 }

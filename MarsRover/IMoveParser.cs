@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MarsRover
 {
-    interface IMoveParser
+    public interface IMoveParser
     {
         List<IMove> GetMoves(string moves);
     }

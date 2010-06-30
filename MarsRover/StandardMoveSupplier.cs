@@ -7,15 +7,17 @@ namespace MarsRover
 {
     class StandardMoveSupplier:IMoveSupplier
     {
+        IMoveParser moveParser;
         public StandardMoveSupplier(IMoveParser moveParser)
         {
-
+            this.moveParser = moveParser;
         }
 
         Queue<IMove> moves = new Queue<IMove>();
-        public void Init(string moves)
+        public void Init(string movesString)
         {
-            
+            foreach (IMove move in moveParser.GetMoves(movesString))
+                moves.Enqueue(move);
         }
         public IMove NextMove()
         {
