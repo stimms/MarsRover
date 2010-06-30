@@ -17,10 +17,10 @@ namespace MarsRoverTests
         public void MoveNorth()
         {
             IMove move = new Move();
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Point location = new Point(1, 1);
             move.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.North, direction);
+            Assert.AreEqual(Direction.N, direction);
             Assert.AreEqual(new Point(1, 2), location);
         }
 
@@ -28,10 +28,10 @@ namespace MarsRoverTests
         public void MoveSouth()
         {
             IMove move = new Move();
-            Direction direction = Direction.South;
+            Direction direction = Direction.S;
             Point location = new Point(1, 1);
             move.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.South, direction);
+            Assert.AreEqual(Direction.S, direction);
             Assert.AreEqual(new Point(1, 0), location);
         }
 
@@ -39,10 +39,10 @@ namespace MarsRoverTests
         public void MoveEast()
         {
             IMove move = new Move();
-            Direction direction = Direction.East;
+            Direction direction = Direction.E;
             Point location = new Point(1, 1);
             move.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.East, direction);
+            Assert.AreEqual(Direction.E, direction);
             Assert.AreEqual(new Point(2, 1), location);
         }
 
@@ -50,10 +50,10 @@ namespace MarsRoverTests
         public void MoveWest()
         {
             IMove move = new Move();
-            Direction direction = Direction.West;
+            Direction direction = Direction.W;
             Point location = new Point(1, 1);
             move.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.West, direction);
+            Assert.AreEqual(Direction.W, direction);
             Assert.AreEqual(new Point(0, 1), location);
         }
     }

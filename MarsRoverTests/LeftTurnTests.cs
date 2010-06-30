@@ -18,10 +18,10 @@ namespace MarsRoverTests
         public void OneLeftFromNorth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.West, direction);
+            Assert.AreEqual(Direction.W, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -29,11 +29,11 @@ namespace MarsRoverTests
         public void TwoLeftFromNorth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.South, direction);
+            Assert.AreEqual(Direction.S, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -41,12 +41,12 @@ namespace MarsRoverTests
         public void ThreeLeftFromNorth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.East, direction);
+            Assert.AreEqual(Direction.E, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -54,13 +54,13 @@ namespace MarsRoverTests
         public void FourLeftFromNorth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.North, direction);
+            Assert.AreEqual(Direction.N, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -68,10 +68,10 @@ namespace MarsRoverTests
         public void OneLeftFromEast()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.East;
+            Direction direction = Direction.E;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.North, direction);
+            Assert.AreEqual(Direction.N, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -79,11 +79,11 @@ namespace MarsRoverTests
         public void TwoLeftFromEast()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.East;
+            Direction direction = Direction.E;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.West, direction);
+            Assert.AreEqual(Direction.W, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -91,12 +91,12 @@ namespace MarsRoverTests
         public void ThreeLeftFromEast()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.East;
+            Direction direction = Direction.E;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.South, direction);
+            Assert.AreEqual(Direction.S, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -104,13 +104,13 @@ namespace MarsRoverTests
         public void FourLeftFromEast()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.East;
+            Direction direction = Direction.E;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.East, direction);
+            Assert.AreEqual(Direction.E, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -118,10 +118,10 @@ namespace MarsRoverTests
         public void OneLeftFromSouth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.South;
+            Direction direction = Direction.S;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.East, direction);
+            Assert.AreEqual(Direction.E, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -129,11 +129,11 @@ namespace MarsRoverTests
         public void TwoLeftFromSouth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.South;
+            Direction direction = Direction.S;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.North, direction);
+            Assert.AreEqual(Direction.N, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -141,12 +141,12 @@ namespace MarsRoverTests
         public void ThreeLeftFromSouth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.South;
+            Direction direction = Direction.S;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.West, direction);
+            Assert.AreEqual(Direction.W, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -154,13 +154,13 @@ namespace MarsRoverTests
         public void FourLeftFromSouth()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.South;
+            Direction direction = Direction.S;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.South, direction);
+            Assert.AreEqual(Direction.S, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -168,10 +168,10 @@ namespace MarsRoverTests
         public void OneLeftFromWest()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.West;
+            Direction direction = Direction.W;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.South, direction);
+            Assert.AreEqual(Direction.S, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -179,11 +179,11 @@ namespace MarsRoverTests
         public void TwoLeftFromWest()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.West;
+            Direction direction = Direction.W;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.East, direction);
+            Assert.AreEqual(Direction.E, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -191,12 +191,12 @@ namespace MarsRoverTests
         public void ThreeLeftFromWest()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.West;
+            Direction direction = Direction.W;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.North, direction);
+            Assert.AreEqual(Direction.N, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
 
@@ -204,13 +204,13 @@ namespace MarsRoverTests
         public void FourLeftFromWest()
         {
             LeftTurn leftTurn = new LeftTurn();
-            Direction direction = Direction.West;
+            Direction direction = Direction.W;
             Point location = new Point(0, 0);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
             leftTurn.ExecuteMove(ref direction, ref location);
-            Assert.AreEqual(Direction.West, direction);
+            Assert.AreEqual(Direction.W, direction);
             Assert.AreEqual(new Point(0, 0), location);
         }
     }

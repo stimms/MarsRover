@@ -2,13 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Drawing;   
+using System.Drawing;
 
 namespace MarsRover
 {
     public class Rover
     {
-        public Direction Direction { get; set; }
+        private Direction _direction;
+        public Direction Direction
+        {
+            get { return _direction; }
+            set { _direction = value; }
+        }
+
+        private IGrid grid { get; set; }
+
+        private IMoveSupplier moveSupplier { get; set; }
 
         private Point _location;
         public Point Location
@@ -29,6 +38,20 @@ namespace MarsRover
         {
             this.Direction = direction;
             this.Location = location;
+            this.grid = grid;
+            this.moveSupplier = moveSupplier;
+        }
+
+        public void ExecuteMoves()
+        {
+            while (moveSupplier.HasNextMove())
+            {
+                moveSupplier.NextMove().ExecuteMove(ref _direction, ref _location);
+                if (!grid.IsValidLocation(_location))
+                {
+                    throw new InvalidLocationException();
+                }
+            }
         }
 
     }

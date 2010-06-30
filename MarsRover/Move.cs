@@ -13,16 +13,16 @@ namespace MarsRover
         {
             switch (direction)
             {
-                case Direction.North:
+                case Direction.N:
                     location = new Point(location.X, location.Y + 1);
                     break;
-                case Direction.South:
+                case Direction.S:
                     location = new Point(location.X, location.Y - 1);
                     break;
-                case Direction.East:
+                case Direction.E:
                     location = new Point(location.X + 1, location.Y);
                     break;
-                case Direction.West:
+                case Direction.W:
                     location = new Point(location.X - 1, location.Y);
                     break;
                 default:

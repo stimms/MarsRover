@@ -66,7 +66,7 @@ namespace MarsRoverTests
         public void InitRover()
         {
             Point location = new Point(0,0);
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Rover rover = new Rover(direction, location,null, null);
             Assert.AreEqual(location, rover.Location);
             Assert.AreEqual(direction, rover.Direction);
@@ -77,7 +77,7 @@ namespace MarsRoverTests
         public void InitRoverWithNegativeXCoordinate()
         {
             Point location = new Point(-1, 0);
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Rover rover = new Rover(direction, location,null, null);
             Assert.AreEqual(location, rover.Location);
             Assert.AreEqual(direction, rover.Direction);
@@ -88,7 +88,7 @@ namespace MarsRoverTests
         public void InitRoverWithNegativeYCoordinate()
         {
             Point location = new Point(0, -1);
-            Direction direction = Direction.North;
+            Direction direction = Direction.N;
             Rover rover = new Rover(direction, location,null,null);
             Assert.AreEqual(location, rover.Location);
             Assert.AreEqual(direction, rover.Direction);

@@ -9,5 +9,6 @@ namespace MarsRover
     public interface IGrid
     {
         bool IsValidLocation(Point location);
+        void InitiGrid(int width, int height);
     }
 }

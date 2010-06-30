@@ -12,17 +12,17 @@ namespace MarsRover
         {
             switch (direction)
             {
-                case Direction.North:
-                    direction = Direction.East;
+                case Direction.N:
+                    direction = Direction.E;
                     break;
-                case Direction.South:
-                    direction = Direction.West;
+                case Direction.S:
+                    direction = Direction.W;
                     break;
-                case Direction.East:
-                    direction = Direction.South;
+                case Direction.E:
+                    direction = Direction.S;
                     break;
-                case Direction.West:
-                    direction = Direction.North;
+                case Direction.W:
+                    direction = Direction.N;
                     break;
                 default:
                     throw new InvalidMoveException();
