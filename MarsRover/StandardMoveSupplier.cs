@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MarsRover
 {
-    class StandardMoveSupplier:IMoveSupplier
+    public class StandardMoveSupplier:IMoveSupplier
     {
         IMoveParser moveParser;
         public StandardMoveSupplier(IMoveParser moveParser)

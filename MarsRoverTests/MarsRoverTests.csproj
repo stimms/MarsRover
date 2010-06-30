@@ -54,6 +54,7 @@
     <Compile Include="StandardDirectionParserTests.cs" />
     <Compile Include="StandardGridTests.cs" />
     <Compile Include="StandardLocationParserTests.cs" />
+    <Compile Include="StandardMoveSupplierTests.cs" />
     <Compile Include="StringMoveParserTests.cs" />
   </ItemGroup>
   <ItemGroup>
