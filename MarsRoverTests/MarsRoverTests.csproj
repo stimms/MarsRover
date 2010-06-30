@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LeftTurnTests.cs" />
+    <Compile Include="MoveTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RightTurnTests.cs" />
     <Compile Include="RoverTests.cs" />
+    <Compile Include="StandardLocationParserTests.cs" />
     <Compile Include="StringMoveParserTests.cs" />
   </ItemGroup>
   <ItemGroup>

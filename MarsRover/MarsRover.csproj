@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Direction.cs" />
     <Compile Include="IGrid.cs" />
+    <Compile Include="ILocationParser.cs" />
     <Compile Include="IMove.cs" />
     <Compile Include="IMoveParser.cs" />
     <Compile Include="IMoveSupplier.cs" />
@@ -72,6 +73,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MarsRover.resx</DependentUpon>
     </Compile>
+    <Compile Include="Move.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MarsRover.en.Designer.cs">
@@ -81,6 +83,7 @@
     </Compile>
     <Compile Include="RightTurn.cs" />
     <Compile Include="Rover.cs" />
+    <Compile Include="StandardLocationParser.cs" />
     <Compile Include="StandardMoveSupplier.cs" />
     <Compile Include="StringMoveParser.cs" />
   </ItemGroup>
