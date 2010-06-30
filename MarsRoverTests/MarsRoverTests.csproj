@@ -46,7 +46,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LeftTurnTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RightTurnTests.cs" />
     <Compile Include="RoverTests.cs" />
     <Compile Include="StringMoveParserTests.cs" />
   </ItemGroup>
